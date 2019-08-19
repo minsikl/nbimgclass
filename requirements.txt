@@ -1,0 +1,7 @@
+numpy<1.17,>=1.14.5
+jupyter
+pandas
+matplotlib
+scikit-image
+keras
+tensorflow
