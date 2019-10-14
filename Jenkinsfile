@@ -12,13 +12,13 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo "Sample Build stage with variable from pipeline strategy >> ${MY_STRATEGY_VAR}"
+        echo "Sample Build stage with variable from pipeline strategy "
       }
     }
 
     stage('Test') {
       steps {
-        echo "Sample Test stage with variable from Jenkinsfile >> ${MY_PIPELINE_VAR}"
+        echo "Sample Test stage with variable from Jenkinsfile "
       }
     }
 
